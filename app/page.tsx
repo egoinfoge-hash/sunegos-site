@@ -1,38 +1,22 @@
-"use client";
-
 export default function Home() {
   return (
-    <main className="hero">
-      {/* ბლურებული ნათება ზურგში */}
-      <div className="aura" />
-      {/* subtle ხაზოვანი შუქი */}
-      <div className="shine" aria-hidden />
-
-      <section className="container">
-        <div className="badge">Official</div>
-
-        <h1 className="title">
-          Sunegos
-          <span className="glow" />
-        </h1>
-
-        <p className="subtitle">
-          Next.js-ზე აგებული სწრაფი და ელეგანტური საიტი —
-          <span className="accent"> დიზაინი, სისწრაფე და ანიმაციები</span>.
-        </p>
-
-        <div className="cta">
-          <a className="btn primary" href="mailto:sandro.sandro78@yahoo.com">
-            Contact
-          </a>
-          <a className="btn ghost" href="#work">
-            View Work
-          </a>
-        </div>
-
-        {/* დეკორატიული ნაპერწკლები */}
-        <div className="sparks" aria-hidden />
-      </section>
-    </main>
-  );
-}
+    <main
+      style={{
+        height: '100vh',
+        background: 'radial-gradient(circle at center, #002f4b, #005c97)',
+        color: 'white',
+        display: 'flex',
+        flexDirection: 'column',
+        alignItems: 'center',
+        justifyContent: 'center',
+        fontFamily: 'sans-serif',
+        textAlign: 'center',
+      }}
+    >
+      <h1 style={{ fontSize: '56px', marginBottom: '20px' }}>Sunegos</h1>
+      <p style={{ fontSize: '20px', opacity: 0.9 }}>
+        საიტი წარმატებით მუშაობს 🚀 <br /> მზად ხარ დიზაინის დასამატებლად!
+      </p>
+      <a
+        href="mailto:sandro.sandro789@yahoo.com"
+        style
