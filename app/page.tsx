@@ -1,3 +1,6 @@
+'use client';
+import React from 'react';
+
 export default function Home() {
   return (
     <main
@@ -19,4 +22,18 @@ export default function Home() {
       </p>
       <a
         href="mailto:sandro.sandro789@yahoo.com"
-        style
+        style={{
+          marginTop: '30px',
+          background: 'white',
+          color: '#005c97',
+          padding: '12px 22px',
+          borderRadius: '10px',
+          textDecoration: 'none',
+          fontWeight: 'bold',
+        }}
+      >
+        Contact
+      </a>
+    </main>
+  );
+}
